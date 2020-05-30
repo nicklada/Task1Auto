@@ -25,5 +25,4 @@ class MobileBankApiTestV5 {
           .body("every{ it.balance >= 0 }", is(true))
       ;
     }
-
 }
