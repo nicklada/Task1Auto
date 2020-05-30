@@ -27,4 +27,5 @@ class MobileBankApiTestV3 {
           .body("[0].balance", greaterThanOrEqualTo(0))
       ;
     }
+
 }
